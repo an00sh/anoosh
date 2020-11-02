@@ -1,0 +1,144 @@
+/*Selector{
+	Property: value;
+/*}*/
+
+/* For online resource check website: CSS tricks 
+If we like a particular style in a website we can check it by either go to Developper Tools, or right click "inspect element"
+Styles can also be added to the .html file by adding a tag "style", but it can become too complicated, it is also good to keep content and style separated to be able to work on both independently
+
+CSS: Cascaded Style Sheets => it always consider the selector that is at the end
+The file is basically read from top to bottom of the .html file
+/*}*/
+
+
+*{
+	font-family: 'Optima';
+}
+
+ body{
+ 	background-color: rgba(243,243,243,0.1);
+	background-size: cover
+} 
+
+nav{
+	text-align: right;
+
+}
+
+a{
+	color: #291b00;
+	margin: 20px;
+
+}
+
+h2{
+	color: black;
+	font-size: 2em;
+	text-align: center;
+	border: 5px solid rgba(255,255,255,0.2);
+	cursor:pointer;
+
+}
+
+p {
+	color: #291b00;
+	text-align: left;
+	line-height: 25px;
+	font-style:italic;
+	font-size: 120%;
+	font-family: 'optima';
+	margin: 3em;
+
+
+}
+
+form{
+	text-align: left;
+	margin: 6em;
+
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+img{
+	width: 450px;
+	height:300px;
+	margin: 10px;
+	transition: all 0.3s;
+	vertical-align: : center;
+}
+
+img:hover {
+	transform: scale(1.01);
+}
+
+footer{
+	clear: both;
+	text-align: center;
+	color: black;
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+	color: white;
+}
+
+
+
+.button {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 0.5em 2.5em;
+    color: #fff;
+    background-color: #424141;
+    border-width: 0;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+input{
+    width: 100%;
+    padding: 12px;
+    margin: 6px 0 4px;
+    border: 1px solid #ccc;
+    background: #FBFBFB;
+    color: #000;
+    line-height: normal;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.area input  {
+	min-height: 100px;
+
+}
+
+//*
+.webtext {
+	border: 2px dotted rgba(255,255,255,0.7);
+}
+
+.active {
+	color: black;
+}
+
+#div1{
+	background: rgba(96.1,96.1,96.1,0.3);
+}
+
+#div2{
+	background: rgba(96.1,96.1,96.1,0.3);
+}
+
+*/
+
+
